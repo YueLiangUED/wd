@@ -13,7 +13,7 @@
 <nav>
     <div class="swiper-container1">
         <div class="swiper-wrapper">
-            <div class="swiper-slide first">全部宝贝</div>
+            <div class="swiper-slide selected-slider">全部宝贝</div>
             <div class="swiper-slide">热门推荐</div>
             <div class="swiper-slide">套餐专区</div>
             <div class="swiper-slide">流量专区</div>
@@ -28,7 +28,7 @@
     <div>
         <div></div>
         <span></span>
-        <input type="number" placeholder="手机号码">
+        <input type="number" pattern="\d*" placeholder="手机号码">
         <div>充值</div>
     </div>
 </header>
@@ -263,7 +263,7 @@
         normalizeSlideIndex:false,
         slidesPerView : 'auto',
         onInit: function (swiper) {
-            $('.swiper-slide.first').addClass('selected-slider');
+            
         },
         onTap: function (swiper) {
             if(swiper.clickedSlide){

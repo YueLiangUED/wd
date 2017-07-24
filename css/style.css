@@ -5,7 +5,7 @@ nav{
     height: 4.5rem;
 }
 nav .swiper-container1{
-    position: relative;
+
     height: 4.5rem;
 }
 nav .swiper-container1 .swiper-wrapper{
@@ -15,6 +15,7 @@ nav .swiper-container1 .swiper-wrapper{
     z-index: 99999;
 }
 nav .swiper-container1 .swiper-slide{
+    position: relative;
     width: 8.5rem;
     height: 4.5rem;
     font-size: 1.5rem;

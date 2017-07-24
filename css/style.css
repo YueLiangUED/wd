@@ -4,6 +4,9 @@ html,body{
 nav{
     height: 4.5rem;
 }
+nav .swiper-container1{
+    height: 4.5rem;
+}
 nav .swiper-container1 .swiper-wrapper{
     position: fixed;
     top: 0;

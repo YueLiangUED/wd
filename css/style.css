@@ -8,6 +8,44 @@ nav{
     height: 4.5rem;
     z-index: 99999;
 }
+nav .title{
+    position: relative;
+    width: 37.5rem;
+    height: 4.4rem;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 4.4rem;
+    color: #ffffff;
+    background-color: #1f233a;
+}
+nav .title span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 1.75rem;
+}
+nav .title span:first-child{
+    left: 1.45rem;
+    width: 1.85rem;
+    background: url("../images/talk.png") center no-repeat;
+    background-size: cover;
+}
+nav .title span:first-child i{
+    position: absolute;
+    left: 1.6rem;
+    top: -0.1rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #ff1010;
+}
+nav .title span:last-child{
+    right: 1.45rem;
+    width: 1.65rem;
+    background: url("../images/search.png") center no-repeat;
+    background-size: cover;
+}
 nav .swiper-container1{
     overflow: hidden;
     height: 4.5rem;
@@ -29,7 +67,7 @@ nav .swiper-container1 .selected-slider{
     color: #0085d0;
 }
 header{
-    margin: 5rem 0 0.5rem;
+    margin: 9.4rem 0 0.5rem;
     padding: 1rem 0;
     width: 37.5rem;
     background-color: #ffffff;

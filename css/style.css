@@ -8,8 +8,8 @@ nav .swiper-container1{
     height: 4.5rem;
 }
 nav .swiper-container1 .swiper-wrapper{
-    position: fixed;
-    top: 0;
+    /*position: fixed;
+    top: 0;*/
     height: 4.5rem;
     z-index: 9999;
 }

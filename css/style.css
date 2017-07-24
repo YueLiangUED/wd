@@ -2,17 +2,18 @@ html,body{
     background-color: #f8f8f8;
 }
 nav{
+    position: fixed;
+    top: 0;
+    width: 37.5rem;
     height: 4.5rem;
+    z-index: 99999;
 }
 nav .swiper-container1{
-
+    overflow: hidden;
     height: 4.5rem;
 }
 nav .swiper-container1 .swiper-wrapper{
-    position: fixed;
-    top: 0;
     height: 4.5rem;
-    z-index: 99999;
 }
 nav .swiper-container1 .swiper-slide{
     position: relative;

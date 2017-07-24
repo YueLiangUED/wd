@@ -21,7 +21,6 @@ nav .swiper-container1 .swiper-slide{
     text-align: center;
     color: #1f233a;
     background-color: #ffffff;
-    z-index: 9999;
 }
 nav .swiper-container1 .selected-slider{
     color: #0085d0;

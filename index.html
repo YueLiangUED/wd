@@ -13,7 +13,7 @@
 <nav>
     <div class="swiper-container1">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">全部宝贝</div>
+            <div class="swiper-slide selected-slider">全部宝贝</div>
             <div class="swiper-slide">热门推荐</div>
             <div class="swiper-slide">套餐专区</div>
             <div class="swiper-slide">流量专区</div>
@@ -267,10 +267,10 @@
             
         },*/
         onTap: function (swiper) {
-            /*if(swiper.clickedSlide){
+            if(swiper.clickedSlide){
                 $('.swiper-slide').removeClass('selected-slider');
                 $(swiper.clickedSlide).addClass('selected-slider');
-            }*/
+            }
             if(swiper.clickedSlide.innerHTML == '全部宝贝'){
                 document.body.scrollTop = 0;
             }else if(swiper.clickedSlide.innerHTML == '热门推荐'){
@@ -295,7 +295,8 @@
         loop: true,
         pagination: '.swiper-pagination',
         paginationClickable :true,
-        //effect: 'slide',
+        effect: 'slide',
+        loopedSlides :8,
         autoplay: 3000,
         autoplayDisableOnInteraction: false,
         lazyLoading: true,

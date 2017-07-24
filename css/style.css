@@ -2,7 +2,6 @@ html,body{
     background-color: #f8f8f8;
 }
 nav{
-    overflow-x: scroll;
     height: 4.5rem;
 }
 nav .swiper-container1 .swiper-wrapper{

@@ -10,7 +10,6 @@ nav .swiper-container1 .swiper-wrapper{
     z-index: 9999;
 }
 nav .swiper-container1 .swiper-slide{
-    margin: 0 -1px;
     width: 8.5rem;
     height: 4.5rem;
     font-size: 1.5rem;

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cfef213-188d-416f-937b-8c8c268677d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="0721微店.iws" />
@@ -315,12 +314,12 @@
       <workItem from="1500862805045" duration="726000" />
       <workItem from="1500866176172" duration="9679000" />
       <workItem from="1500946700234" duration="56000" />
-      <workItem from="1500946813675" duration="3340000" />
+      <workItem from="1500946813675" duration="3392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37866000" />
+    <option name="totallyTimeSpent" value="37918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1234" height="777" extended-state="6" />

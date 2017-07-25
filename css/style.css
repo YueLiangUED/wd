@@ -10,6 +10,7 @@ nav{
 }
 nav .title{
     position: relative;
+    margin-top: -1px;
     width: 37.5rem;
     height: 4.4rem;
     font-size: 1.7rem;

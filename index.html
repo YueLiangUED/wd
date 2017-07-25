@@ -324,27 +324,31 @@
         lazyLoadingInPrevNext: true,
     });
     window.setInterval(function () {
-        //console.log(document.body.scrollTop);
-        console.log($('.con1').offset().top - $(window).scrollTop());
-        console.log();
-        /*if(document.body.scrollTop > 400 && document.body.scrollTop < 1056){
-            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
-            mySwiper1.slides[1].style.color = '#0085d0';
-        }else if(document.body.scrollTop > 1040 && document.body.scrollTop < 1642){
-            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
-            mySwiper1.slides[2].style.color = '#0085d0';
-        }else if(document.body.scrollTop > 1620 && document.body.scrollTop < 2230){
-            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
-            mySwiper1.slides[3].style.color = '#0085d0';
-        }else if(document.body.scrollTop > 2200 && document.body.scrollTop < 2830){
-            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
-            mySwiper1.slides[4].style.color = '#0085d0';
-        }else if(document.body.scrollTop > 2800 && document.body.scrollTop < 4010){
-            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
-            mySwiper1.slides[5].style.color = '#0085d0';
-        }else if(document.body.scrollTop < 400){
-            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
-            mySwiper1.slides[0].style.color = '#0085d0';
-        }*/
+        if(document.body.scrollTop > 180 && document.body.scrollTop < 410){
+            /*$('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
+            mySwiper1.slides[1].style.color = '#0085d0';*/
+            mySwiper1.slideTo(1,true);
+            mySwiper1.clickedSlide=mySwiper1.slides[1];
+            /*mySwiper1.clickedSlide=mySwiper1.slides[0];
+            mySwiper1.params['onTap'](mySwiper1);*/
+        }else if(document.body.scrollTop > 400 && document.body.scrollTop < 635){
+            mySwiper1.slideTo(2,true);
+            mySwiper1.clickedSlide=mySwiper1.slides[2];
+        }else if(document.body.scrollTop > 620 && document.body.scrollTop < 860){
+            mySwiper1.slideTo(3,true);
+            mySwiper1.clickedSlide=mySwiper1.slides[3];
+        }else if(document.body.scrollTop > 850 && document.body.scrollTop < 1080){
+            mySwiper1.slideTo(4,true);
+            mySwiper1.clickedSlide=mySwiper1.slides[4];
+        }else if(document.body.scrollTop > 1060 && document.body.scrollTop < 1310){
+            mySwiper1.slideTo(5,true);
+            mySwiper1.clickedSlide=mySwiper1.slides[5];
+        }else if(document.body.scrollTop > 1300 && document.body.scrollTop < 1530){
+            mySwiper1.slideTo(6,true);
+            mySwiper1.clickedSlide=mySwiper1.slides[6];
+        } else if(document.body.scrollTop < 400){
+            mySwiper1.slideTo(0,true);
+            mySwiper1.clickedSlide=mySwiper1.slides[0];
+        }
     },0);
 </script>

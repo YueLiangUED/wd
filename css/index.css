@@ -429,3 +429,51 @@ section .content.con7 ul li p:last-child{
     font-size: 1.2rem;
     color: #000000;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+}
+footer div{
+    box-sizing: border-box;
+    padding-top: 0.85rem;
+    width: 37.5rem;
+    height: 5.5rem;
+    border-top: 1px solid #acacac;
+    background-color: #f6f6f6;
+}
+footer div ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+footer div ul li span{
+    display: inline-block;
+}
+footer div ul li:nth-child(odd) span{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+footer div ul li:nth-child(even) span{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+footer div ul li:nth-child(1) span{
+    background: url("../images/footerIcon-1.png") center no-repeat;
+    background-size: cover;
+}
+footer div ul li:nth-child(2) span{
+    background: url("../images/footerIcon-2.png") center no-repeat;
+    background-size: cover;
+}
+footer div ul li:nth-child(3) span{
+    background: url("../images/footerIcon-3.png") center no-repeat;
+    background-size: cover;
+}
+footer div ul li:nth-child(4) span{
+    background: url("../images/footerIcon-4.png") center no-repeat;
+    background-size: cover;
+}
+footer div ul li p{
+    font-size: 1rem;
+    color: #1f233a;
+}

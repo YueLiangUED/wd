@@ -280,19 +280,19 @@
             if(swiper.clickedSlide.innerHTML == '全部宝贝'){
                 document.body.scrollTop = 0;
             }else if(swiper.clickedSlide.innerHTML == '热门推荐'){
-                document.body.scrollTop = 200;
+                document.body.scrollTop = 217;
             }else if(swiper.clickedSlide.innerHTML == '套餐专区'){
-                document.body.scrollTop = 1056;
+                document.body.scrollTop = 488;
             }else if(swiper.clickedSlide.innerHTML == '流量专区'){
-                document.body.scrollTop = 1642;
+                document.body.scrollTop = 760;
             }else if(swiper.clickedSlide.innerHTML == '宽带专区'){
-                document.body.scrollTop = 2230;
+                document.body.scrollTop = 1030;
             }else if(swiper.clickedSlide.innerHTML == '号卡专区'){
-                document.body.scrollTop = 2830;
+                document.body.scrollTop = 1301;
             }else if(swiper.clickedSlide.innerHTML == '精彩生活'){
-                document.body.scrollTop = 3420;
+                document.body.scrollTop = 1570;
             }else if(swiper.clickedSlide.innerHTML == '终端专区'){
-                document.body.scrollTop = 4010;
+                document.body.scrollTop = 1841;
             }
         }
     });
@@ -308,7 +308,8 @@
         lazyLoadingInPrevNext: true,
     });
     window.setInterval(function () {
-        if(document.body.scrollTop > 400 && document.body.scrollTop < 1056){
+        console.log(document.body.scrollTop);
+        /*if(document.body.scrollTop > 400 && document.body.scrollTop < 1056){
             $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
             mySwiper1.slides[1].style.color = '#0085d0';
         }else if(document.body.scrollTop > 1040 && document.body.scrollTop < 1642){
@@ -326,6 +327,6 @@
         }else if(document.body.scrollTop < 400){
             $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
             mySwiper1.slides[0].style.color = '#0085d0';
-        }
+        }*/
     },0);
 </script>

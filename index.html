@@ -7,7 +7,7 @@
     <title>微店</title>
     <link rel="stylesheet" href="css/reset.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <nav>
@@ -66,7 +66,7 @@
             <p>热门推荐</p>
             <div>
                 <span></span>
-                <span><i></i></span>
+                <span id="remen"><i></i></span>
             </div>
             <p>大家喜欢的都在这里</p>
         </div>
@@ -94,7 +94,7 @@
             <p>套餐专区</p>
             <div>
                 <span></span>
-                <span><i></i></span>
+                <span id="taocan"><i></i></span>
             </div>
             <p>多种套餐&nbsp;总有一款适合您</p>
         </div>
@@ -118,7 +118,7 @@
             <p>流量专区</p>
             <div>
                 <span></span>
-                <span><i></i></span>
+                <span id="liuliang"><i></i></span>
             </div>
             <p>流量放心用&nbsp;上网通话两不误</p>
         </div>
@@ -146,7 +146,7 @@
             <p>宽带专区</p>
             <div>
                 <span></span>
-                <span><i></i></span>
+                <span id="kuandai"><i></i></span>
             </div>
             <p>流量放心用&nbsp;上网通话两不误</p>
         </div>
@@ -176,7 +176,7 @@
             <p>号卡专区</p>
             <div>
                 <span></span>
-                <span><i></i></span>
+                <span id="haoka"><i></i></span>
             </div>
             <p>&nbsp;</p>
         </div>
@@ -204,7 +204,7 @@
             <p>精彩生活</p>
             <div>
                 <span></span>
-                <span><i></i></span>
+                <span id="shenghuo"><i></i></span>
             </div>
             <p>让生活多一份惊喜</p>
         </div>
@@ -232,7 +232,7 @@
             <p>终端专区</p>
             <div>
                 <span></span>
-                <span><i></i></span>
+                <span id="zhongduan"><i></i></span>
             </div>
             <p>多种热销品牌机型优惠多</p>
         </div>
@@ -280,35 +280,35 @@
             if(swiper.clickedSlide.innerHTML == '全部宝贝'){
                 $('html,body').animate({
                     scrollTop: 0 + 'px'
-                }, 800);
+                }, 500);
             }else if(swiper.clickedSlide.innerHTML == '热门推荐'){
                 $('html,body').animate({
                     scrollTop: 185 + 'px'
-                }, 800);
+                }, 500);
             }else if(swiper.clickedSlide.innerHTML == '套餐专区'){
                 $('html,body').animate({
                     scrollTop: 410 + 'px'
-                }, 800);
+                }, 500);
             }else if(swiper.clickedSlide.innerHTML == '流量专区'){
                 $('html,body').animate({
                     scrollTop: 635 + 'px'
-                }, 800);
+                }, 500);
             }else if(swiper.clickedSlide.innerHTML == '宽带专区'){
                 $('html,body').animate({
                     scrollTop: 860 + 'px'
-                }, 800);
+                }, 500);
             }else if(swiper.clickedSlide.innerHTML == '号卡专区'){
                 $('html,body').animate({
                     scrollTop: 1080 + 'px'
-                }, 800);
+                }, 500);
             }else if(swiper.clickedSlide.innerHTML == '精彩生活'){
                 $('html,body').animate({
                     scrollTop: 1310 + 'px'
-                }, 800);
+                }, 500);
             }else if(swiper.clickedSlide.innerHTML == '终端专区'){
                 $('html,body').animate({
                     scrollTop: 1530 + 'px'
-                }, 800);
+                }, 500);
             }
         }
     });
@@ -338,7 +338,10 @@
             mySwiper1.clickedSlide=mySwiper1.slides[5];
         }else if(document.body.scrollTop > 1300 && document.body.scrollTop < 1530){
             mySwiper1.clickedSlide=mySwiper1.slides[6];
-        } else if(document.body.scrollTop < 400){
+        }else if(document.body.scrollTop > 1520){
+            mySwiper1.clickedSlide=mySwiper1.slides[7];
+        }
+        else if(document.body.scrollTop < 400){
             mySwiper1.clickedSlide=mySwiper1.slides[0];
         }
     },0);

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detecition" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>任我看</title>
+    <script type="text/javascript">
+        ;(function(global){
+            function remChange(){
+                document.documentElement.style.fontSize=20*document.documentElement.clientWidth/750+'px';
+            }
+            remChange();
+            global.addEventListener('resize',remChange,false);
+        })(window);
+    </script>
+</head>
+<body>
+    <!-- 页面html代码开始 -->
+    <div class="app-container">
+        <div class="app-row">
+            <img src="images/content/content_04.jpg" alt="">
+        </div>
+        <div class="app-row">
+            <img src="images/content/content_05.jpg" alt="">
+        </div>
+        <div class="app-row">
+            <img src="images/content/content_06.jpg" alt="">
+        </div>
+        <div class="app-row-footer green">
+            一不小心在手机上追完了整部<br />《欢乐2》
+        </div>
+    </div>
+    <!-- 页面html代码结束 -->
+</body>
+</html>

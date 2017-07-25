@@ -7,15 +7,26 @@
 })(window);
 
 $(function () {
-    
-    //显示遮罩层
-    function showMask(){
-        $("#mask").css("height",$(document).height());
-        $("#mask").css("width",$(document).width());
-        $("#mask").show();
-    }
-    //隐藏遮罩层
-    function hideMask(){
-        $("#mask").hide();
-    }
+    //跳转
+    $("#remen").on('click',function () {
+        window.location.href = 'index_01.html';
+    });
+    $("#taocan").on('click',function () {
+        window.location.href = 'index_02.html';
+    });
+    $("#liuliang").on('click',function () {
+        window.location.href = 'index_03.html';
+    });
+    $("#kuandai").on('click',function () {
+        window.location.href = 'index_04.html';
+    });
+    $("#haoka").on('click',function () {
+        window.location.href = 'index_05.html';
+    });
+    $("#shenghuo").on('click',function () {
+        window.location.href = 'index_06.html';
+    });
+    $("#zhongduan").on('click',function () {
+        window.location.href = '';
+    });
 });

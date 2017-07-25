@@ -307,4 +307,25 @@
         lazyLoading: true,
         lazyLoadingInPrevNext: true,
     });
+    window.setInterval(function () {
+        if(document.body.scrollTop > 400 && document.body.scrollTop < 1056){
+            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
+            mySwiper1.slides[1].style.color = '#0085d0';
+        }else if(document.body.scrollTop > 1040 && document.body.scrollTop < 1642){
+            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
+            mySwiper1.slides[2].style.color = '#0085d0';
+        }else if(document.body.scrollTop > 1620 && document.body.scrollTop < 2230){
+            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
+            mySwiper1.slides[3].style.color = '#0085d0';
+        }else if(document.body.scrollTop > 2200 && document.body.scrollTop < 2830){
+            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
+            mySwiper1.slides[4].style.color = '#0085d0';
+        }else if(document.body.scrollTop > 2800 && document.body.scrollTop < 4010){
+            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
+            mySwiper1.slides[5].style.color = '#0085d0';
+        }else if(document.body.scrollTop < 400){
+            $('.swiper-container1').find('.swiper-slide').css('color','#1f233a');
+            mySwiper1.slides[0].style.color = '#0085d0';
+        }
+    },0);
 </script>
